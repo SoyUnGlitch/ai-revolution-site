@@ -3,16 +3,14 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'AI Revolution | Powered by AI',
+  description: 'Revolutionize your business with AI solutions',
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      <Head>
-        <title>AI Revolution | Powered by AI</title>
-        <meta name="description" content="Revolutionize your business with AI solutions" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      {/* Navigation */}
       <nav className="bg-white py-4 px-6 shadow-sm fixed w-full z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center">
